@@ -62,13 +62,13 @@ Link to completed codepen assignment: https://codepen.io/sjsussman/pen/dyMbeQj?e
 	- Classes are selected in css through use of the '.'
 
     21. How do we select a p element with a single class of “human””?
-	- .human p{ }
+	- p.human{ }
 
     22. What is a parent child selector? When would this be useful? 
 	- This is used in CSS when an individual wants to call upon a element (child) nested within specific class or id (aka parent)
 
     23. How do you select all links within a div with the class of sidebar?
-	- .sidebar div a { }
+	- .sidebar a { }
 
     24. What is a pseudo selector?
 	-A pseudo selector allows us alter the state of an element if a given action occurs. For example the 'hover' selector allows us to change the color of an element is the mouse is over it.
@@ -96,14 +96,16 @@ Link to completed codepen assignment: https://codepen.io/sjsussman/pen/dyMbeQj?e
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
 	- ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-	- rm, you need to be careful because it is irreversible
+	- rm, you need to be careful because it is irreversible and gives no warning.
 
     34. Why should I use version control? 
 	-So that you can access any version, from any point in time. This is will in case a release is done and code is corrupt. Or if you want to start coding from a specific release.
 
     35. How often should I commit to github?
-	-As often as possible. Whenever a file is changed, added, or removed.
+	-Every 20 minutes or whenever a major change is made.
+
     36. What is the command we would use to push our repo up to github? 
 	- git push -u origin 'Steven-sussman'
 
@@ -125,11 +127,14 @@ Stretch Questions
     1. What is the difference between an inline element and a block element?
 A block element starts and is maintained within its own line.
 An inline element does not create a new line and is used within the given width.
+
     2. What happens when an element is positioned absolutely? 
 It is moved to its own layer outside of its given container.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 By assigning a flex property to the element.
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 Display Block:
 1. <p> elements
 2. <div> elements
