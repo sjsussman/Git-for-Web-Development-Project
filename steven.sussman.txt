@@ -1,5 +1,5 @@
 
-Codepen assignment: https://codepen.io/sjsussman/pen/dyMbeQj?editors=0100
+Link to completed codepen assignment: https://codepen.io/sjsussman/pen/dyMbeQj?editors=0100
 
     1. What is Semantic HTML?
 	-Semantic HTML informs an individual what the element does and where it should be used. For example, a <p> tag not only allows the code to display text but indicates the text is meant to be a body of words (aka paragraph). 
